@@ -389,8 +389,8 @@
 				TargetAttributes = {
 					4A4EABE31E4C4E6A005BA0B6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Z9UD67WPFX;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = WYCHH35RE6;
+						ProvisioningStyle = Manual;
 					};
 					4A4EABF71E4C4E6A005BA0B6 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -661,11 +661,14 @@
 			baseConfigurationReference = D3650F22067B294FC84A449E /* Pods-DecorateManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = WYCHH35RE6;
 				INFOPLIST_FILE = DecorateManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GMJK.DecorateManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesea.DecorateManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b7d1e62-2d66-4c16-9d2f-ea89e8adbf4f";
+				PROVISIONING_PROFILE_SPECIFIER = "test-bluesea-appstore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -675,11 +678,14 @@
 			baseConfigurationReference = DD736F19F9E7C865D85E0B31 /* Pods-DecorateManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = WYCHH35RE6;
 				INFOPLIST_FILE = DecorateManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GMJK.DecorateManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesea.DecorateManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b7d1e62-2d66-4c16-9d2f-ea89e8adbf4f";
+				PROVISIONING_PROFILE_SPECIFIER = "test-bluesea-appstore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
