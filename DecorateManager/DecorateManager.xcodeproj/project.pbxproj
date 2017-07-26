@@ -389,7 +389,7 @@
 				TargetAttributes = {
 					4A4EABE31E4C4E6A005BA0B6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WYCHH35RE6;
+						DevelopmentTeam = 3V4JBL24FX;
 						ProvisioningStyle = Manual;
 					};
 					4A4EABF71E4C4E6A005BA0B6 = {
@@ -661,15 +661,15 @@
 			baseConfigurationReference = D3650F22067B294FC84A449E /* Pods-DecorateManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = WYCHH35RE6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3V4JBL24FX;
 				INFOPLIST_FILE = DecorateManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bluesea.DecorateManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.egisisp.stg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7b7d1e62-2d66-4c16-9d2f-ea89e8adbf4f";
-				PROVISIONING_PROFILE_SPECIFIER = "test-bluesea-appstore";
+				PROVISIONING_PROFILE = "3f87ded4-f0ad-4fb1-a285-012cf84d3f33";
+				PROVISIONING_PROFILE_SPECIFIER = EGISISPDEV;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -680,14 +680,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = WYCHH35RE6;
+				DEVELOPMENT_TEAM = 3V4JBL24FX;
 				INFOPLIST_FILE = DecorateManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bluesea.DecorateManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.egisisp.stg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7b7d1e62-2d66-4c16-9d2f-ea89e8adbf4f";
-				PROVISIONING_PROFILE_SPECIFIER = "test-bluesea-appstore";
+				PROVISIONING_PROFILE = "852a5bb2-a279-4ff9-939f-4d99872d796f";
+				PROVISIONING_PROFILE_SPECIFIER = EGISISPSTG;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
